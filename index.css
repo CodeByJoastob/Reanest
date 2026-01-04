@@ -1695,12 +1695,12 @@ h3 {
 
 @media (max-width: 359px) {
      .sect-five {
-        height: 600vh;
+        height: 360vh;
     }   
 }
-@media (max-width:426px) {
+@media (max-width:430px) {
     .sect-five {
-        height: 380vh;
+        height: 360vh;
     }
 }
 /* ===SECTION SIX=== */
