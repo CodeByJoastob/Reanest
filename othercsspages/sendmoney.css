@@ -299,9 +299,12 @@ header {
 }
 .part2  {
     width: 60%;
-    border: 2px solid;
+    /* border: 2px solid; */
     background-image: url(../images/imgi_25_68067e5558809806aff362cb_Send\ hero\ ng-.webp);
-    /* height: 20vh; */
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     /* border: 2px solid black; */
     /* background-color: red; */
     /* position: relative; */

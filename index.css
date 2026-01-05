@@ -1692,7 +1692,11 @@ h3 {
         height: 410vh;
     }
 }
-
+/* @media (max-width:325px) {
+    .sect-five {
+        height: 400vh;
+    }
+} */
 @media (max-width: 359px) {
      .sect-five {
         height: 360vh;
