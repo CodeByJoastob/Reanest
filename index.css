@@ -142,7 +142,7 @@ header {
     color: black;
 }
 
-@media (max-width:385px) {
+@media (max-width:392px) {
     .per-bus {
         width: 120px;
         gap: .2;

@@ -292,6 +292,8 @@ header {
     width: 90%;
     margin: auto;
     gap: 6em;
+    height: auto;
+    margin-bottom: 10%;
 }
 .part1 {
     /* border: 2px solid black; */
@@ -305,11 +307,165 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #969493;
     /* border: 2px solid black; */
-    /* background-color: red; */
-    /* position: relative; */
-    /* z-index: 10; */
 }
+.sub-part2 {
+    width: 66%;
+    float: right;
+    padding: 2% 0%;
+    backdrop-filter: blur(10px);
+}
+.part2-box1 {
+    width: 94%;
+    margin: auto;
+    border: thin solid;
+    background-color: #fff;
+    margin-bottom: 1%;
+    border-radius: 8px;
+    padding: 0% 2%;
+}
+.eur {
+    border: thin solid grey ;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 90%;
+    margin: auto;
+    padding: 2%;
+    border-radius: 18px;
+    margin-bottom: 4%;
+    color: black;
+}
+.part2-box1 p {
+    font-size: 14px;
+}
+.eur span {
+    font-size: 22px;
+    font-weight: 600;
+}
+.eur .eur-exch {
+    font-size: 18px;
+    position: relative;
+}
+.currency-list {
+    border: thin solid;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding:10% 28%;
+    background-color: white;
+    position: absolute;
+    display: none;
+    z-index: 1000;
+    border-radius: 10px;
+}
+.currency-list a {
+    text-decoration: none;
+}
+.currency-list li {
+    margin-bottom: 20%;
+    display: flex;
+    gap: 20%;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+}
+.eur-exch:hover .currency-list {
+    display: block;
+}
+.bank {
+    color: #4F3FD7;
+    font-weight: 600;
+}
+.part2-box2 {
+    border: thin solid;
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    padding: 2%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+.p-box-right p {
+      font-size: 14px;
+      margin: auto;
+}
+.ex-rate {
+     width: 94%;
+     margin: auto;
+     padding: 1%;
+     background-color: white;
+     border: thin solid;
+     border-radius: 10px;
+}
+.exchange-box1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+.fee p {
+    margin: 0;
+}
+.ex-rate h6 {
+    font-size: 18px;
+    margin-bottom: 4%;
+}
+.ex-rate button {
+    background-color: #4F3FD7;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 1% 2%;
+    margin: auto;
+    border-radius: 10px;
+    font-weight: 600;
+    padding-bottom: 2.88%;
+    margin-bottom: 2%;
+}
+.rate-curr {
+    color: black;
+    font-size: 20px;
+}
+@media (max-width:1141px) {
+    .sub-part2 {
+        width: 80%;
+    }
+}
+@media (max-width:500px) {
+    .part2-box1 p {
+        font-size: 12px;
+    }
+    .eur span {
+        font-size: 18px;
+    }
+    .eur .eur-exch {
+        font-size: 16px;
+    }
+    .part2-box2 p {
+        font-size: 14px;
+    }
+    .fee p {
+       font-size: 12.88px;
+    }
+    .fee .rate-curr {
+        font-size: 16px;
+    }
+    .ex-rate p {
+        font-size: 14px;
+    }
+    .ex-rate h6 {
+        font-size: 16px;
+    }
+}
+@media (max-width:360px) {
+    .p-box-right p {
+        font-size: 12px;
+    }
+}
+
 .hero-img {
     width: 600px;
 }
@@ -382,12 +538,50 @@ header {
         font-size: 70px;
     }
     .part2 {
-        width: 80%;
+        width: 96%;
         margin: auto;
         text-align: center;
+        margin-bottom: 1%;
+        /* border: 2px solid red; */
+        height: auto;
     }
     .hero-bt-group {
         margin: auto;
+    }
+    .sub-part2 {
+        float: none;
+        /* border: 2px solid ; */
+        margin: auto;
+        width: 50%;
+    }   
+    .eur {
+        width: 96%;
+    }
+    .sub-part2 p {
+        text-align: left;
+    }
+    .ex-rate {
+        text-align: left;
+    }
+}
+@media (max-width:1004px) {
+    .sub-part2 {
+        /* width: 80%; */
+    }
+}
+@media (max-width: 810px) {
+    .sub-part2 {
+        width: 60%;
+    } 
+}
+@media (max-width: 757px) {
+    .sub-part2 {
+        width: 70%;
+    }
+}
+@media (max-width:580px) {
+    .sub-part2 {
+        width: 96%;
     }
 }
 @media (max-width:770px) {
