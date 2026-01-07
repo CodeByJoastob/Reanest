@@ -18,10 +18,11 @@ header {
     width: 100%;
     z-index: 1000;
     color: white;
-    box-shadow: 1px 1px 0px black;
+    /* box-shadow: 1px 1px 0px black; */
     /* transition: background 0.3s ease; */
     /* background: transparent; */
     background-color: white;
+    /* backdrop-filter: blur(1200px); */
 }
 .nav_logo{
      width: 120px;
@@ -1523,16 +1524,11 @@ h3 {
     padding: 20px;
     /* border: 2px solid red; */
 }
-/* .mock-up .mocked-pic {
-    width: 160px;
-} */
-/* .mock-up .pic1 {
+
     transform: skew(30deg) translateX(20px) translateY(-20px);
 } */
 .mock-up .pic2 {
-    /* transform: skew(20deg)  translateX(-70px); */
-    /* transform: translateX(-20px); */
-    /* width: 70%; */
+
 }
 .mock-up .pic2:hover {
     transform: translateX(60%);
@@ -1556,22 +1552,33 @@ h3 {
         gap: 0em;
     }
 }
-@media (max-width:501px) {
+@media (max-width:550px) {
     .mockup {
         top: 80vh;
+        width: 100%;
+        height: auto;
+        bottom: 0;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .mock-up {
+        width: 96%;
+        margin: auto;
+        padding: 0;
+        /* border: 2px solid ; */
+        /* gap: 4em; */
+    }
+    .mock-up img {
+        width: 36%;
+        /* border: 2px solid red; */
+    }
+    .mock-up {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 }
-@media (max-width:400px) {
-    .mockup {
-        
-    }
-   .mock-up img {
-      /* width: 55%; */
-   } 
-   .mock-up {
-     
-   }
-}
+
 .sub-sect-five {
     position: relative;
     top: 110vh;
