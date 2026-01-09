@@ -9,7 +9,7 @@
     font-family: 'Noto Nastaliq Urdu', sans-serif;
 }
 body {
-    background-color: #4F3FD7;
+    /* background-color: #4F3FD7; */
     /* border: 5px solid red; */
     width: 100%;
 }
@@ -286,7 +286,7 @@ header {
 /* ==HERO SECTION== */
 .first-sect {
   /* border: 3px solid white;   */
-  position: relative;
+  /* position: relative; */
   top: 26vh;
   background-image: url(./images/imgi_135_681149da8df0d9921c04e3fc_hero\ bg.svg); 
   background-position: center;
@@ -299,6 +299,15 @@ header {
   /* height: 88.8vh; */
   z-index: 10;
   overflow: hidden;
+  
+}
+.sect-One {
+    width: 100%;
+    position: relative;
+    top: 11.22vh;
+    background-color: #4F3FD7;
+    height: auto;
+    padding-top: 4vh;
 }
 .part-one {
     width: 60%;
@@ -395,7 +404,7 @@ header {
     }
     .part-one {
         width: 88%;
-        margin-left: 40px;
+        margin-left: 20px;
         top: 0;
     }
     .part-one h1 {
@@ -426,7 +435,7 @@ header {
            font-size: 50px;
       }
       .part-one marquee img {
-        width: 150%;
+        width: 200%;
       }
       .main-hero-img {
         width: 600px;
@@ -437,13 +446,16 @@ header {
         top: 20vh;
       }
 }
-@media (max-width:426px) {
+@media (max-width:429px) {
     .part-one h1 {
         font-size: 40px;
         margin-bottom: 18px;
     }
     .main-hero-img {
         left: -180px;
+    }
+    .sect-One {
+        padding-top: 10vh;
     }
 }
 @media (max-width:390px) {
@@ -1333,7 +1345,7 @@ h3 {
     background-color: #F7F7FF;
     position: relative;
     top: 20vh;
-    /* height: auto; */
+    height: auto;
     height: 330vh; 
 }
 .your-money-box {
@@ -1525,8 +1537,7 @@ h3 {
     /* border: 2px solid red; */
 }
 
-    transform: skew(30deg) translateX(20px) translateY(-20px);
-} */
+
 .mock-up .pic2 {
 
 }
@@ -1565,7 +1576,7 @@ h3 {
         width: 96%;
         margin: auto;
         padding: 0;
-        /* border: 2px solid ; */
+        /* bordeKOr: 2px solid ; */
         /* gap: 4em; */
     }
     .mock-up img {
@@ -1676,7 +1687,7 @@ h3 {
 }
 @media (max-width:800px) {
     .sect-five{
-        height: 420vh;
+        height: 500vh;
     }
     .getpaid-box {
         flex-direction: column;
@@ -1688,7 +1699,59 @@ h3 {
     .paid-boxes img {
         width: 40%;
     }
+    .get-paid {
+        /* border: 2px solid green; */
+        height: auto;
+    }
 }
+@media (max-width:700px) {
+     .sect-five{
+        height: 480vh;
+    }
+}
+@media (max-width:645px) {
+    .sect-five {
+        height: 460vh;
+    }
+}
+@media (max-width:617px) {
+    .sect-five {
+        height: 445vh;
+    }
+}
+@media (max-width:550px) {
+    .sect-five {
+        height: 480vh;
+    }
+    .get-paid {
+        /* z-index: 1000; */
+    }
+}
+/* @media (max-width:515px) {
+    .sect-five {
+        height: 500vh;
+    }
+}
+@media (max-width:490px) {
+    .sect-five {
+        height: 480vh;
+    }
+}
+@media (max-width:420px) {
+    .sect-five {
+        height: 470vh;
+    }
+}
+@media (max-width:370px) {
+    .sect-five {
+        height: 460vh;
+    }
+}
+@media (max-width:355px) {
+    .sect-five {
+        height: 450vh;
+    }
+} */
 @media (max-width:483px) {
     .sect-five {
         height: 400vh;
@@ -1699,11 +1762,11 @@ h3 {
         height: 410vh;
     }
 }
-/* @media (max-width:325px) {
+@media (max-width:325px) {
     .sect-five {
         height: 400vh;
     }
-} */
+}
 @media (max-width: 359px) {
      .sect-five {
         height: 360vh;
@@ -1781,7 +1844,21 @@ h3 {
         margin-bottom: 10%;
     }
 }
-
+@media (max-width:440px) {
+    .sect-six {
+        top: 55vh;
+    }
+}
+@media (max-width:400px) {
+    .sect-six {
+        top: 70vh;
+    }
+}
+@media (max-width:340px) {
+    .sect-six {
+        top: 180vh ;
+    }
+}
 /* ===NEWSLETTER=== */
 .newsletter {
     display: flex;
@@ -2133,5 +2210,20 @@ h3 {
     }
     .footer-box-two p {
         margin: 0;
+    }
+}
+@media (max-width:450px) {
+    footer {
+        top: 60vh;
+    }
+}
+@media (max-width:400px) {
+    footer {
+        top: 74vh;
+    }
+}
+@media (max-width:340px) {
+    footer {
+        top: 180vh ;
     }
 }
